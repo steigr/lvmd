@@ -20,11 +20,10 @@ package server
 
 import (
 	"github.com/google/lvmd/commands"
+	pb "github.com/google/lvmd/proto"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
-
-	pb "github.com/google/lvmd/proto"
 )
 
 type Server struct{}
